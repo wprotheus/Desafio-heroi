@@ -11,7 +11,7 @@ body {
     display: flex;
     flex-direction: column;
     height: 100vh;
-    background-image: url('/assets/img/back.jpg');
+    background-image: url('../img/back.jpg');
     background-size: cover;
     background-position: center;
 }
@@ -54,7 +54,7 @@ body {
     width: 26%;
     height: auto;
     padding: 2rem;
-    background-image: url('/assets/img/box.png');
+    background-image: url('../img/box.png');
     background-size: cover;
     border-radius: 16px;
     box-shadow: 0 4px 8px rgb(57, 165, 118);
