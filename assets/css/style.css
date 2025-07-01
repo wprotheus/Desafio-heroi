@@ -17,13 +17,16 @@ body {
 }
 
 .hero-header {
-    font-family: "Press Start 2P", cursive;
     display: flex;
     flex-direction: column;
     margin-top: 5rem;
     align-items: center;
     justify-content: center;
     text-align: center;
+}
+
+.title, .subtitle {
+    font-family: "Press Start 2P", cursive;
 }
 
 .title {    
