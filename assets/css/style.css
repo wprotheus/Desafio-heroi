@@ -1,0 +1,157 @@
+@import url('reset.css');
+
+* {
+    font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    background-image: url('/assets/img/back.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+.hero-header {
+    display: flex;
+    flex-direction: column;
+    margin-top: 5rem;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.title {
+    font-family: "Press Start 2P", cursive;
+    font-size: 3.5rem;
+    letter-spacing: 17px;
+    color: #f00;
+}
+
+.subtitle {
+    margin-top: 2rem;
+    line-height: 1.7rem;
+    font-family: "Press Start 2P", cursive;
+    font-size: 1.3rem;
+    width: 44%;
+    color: #000;
+}
+
+.hero-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+
+}
+.box {
+    width: 26%;
+    height: auto;
+    padding: 2rem;
+    background-image: url('/assets/img/box.png');
+    background-size: cover;
+    border-radius: 16px;
+    box-shadow: 0 4px 8px rgb(57, 165, 118);
+}
+
+#consult {
+    font-size: 2rem;
+    color: #000000;
+    text-align: center;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-bottom: 1rem;
+}
+
+.box-name, .box-xp {
+    font-size: 1.6rem;
+    font-weight: bolder;
+    color: #033104;
+}
+
+.box-name{
+    margin-top: 2.5rem;
+}
+
+.box-hero, .box-heroxp {
+    width: 100%;
+    padding: 0.5rem;
+    font-size: 1rem;
+    border: 1px solid #00f;
+    border-radius: 5px;
+}
+
+.box-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.box-btn {
+    margin-top: 1rem;
+    align-self: center;
+    font-size: 1.2rem;
+    color: #fff;
+    background-color: #00f;
+    border: 1px solid #0056b3;
+    border-radius: 5px;
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.box-btn:hover {
+    background-color: #0056b3;
+    font-weight: bolder;
+    font-size: larger;
+    color: rgb(0, 0, 255);
+    transition: all .1s ease-in-out;
+}
+
+.hidden {
+    display: none;
+}
+
+#box-result {
+    position: fixed;
+    width: 50%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(0, 0, 0, 0.8);
+    color: white;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    z-index: 2000;
+}
+
+.show {
+    text-transform: capitalize;
+    font-weight: bolder;
+    font-size: 1.5rem;
+    padding: 0.5rem;
+    color: #ffffff;
+}
+
+#box-result .restart-btn {
+    margin-top: 10px;
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#box-result .restart-btn:hover {
+    background-color: #218838;
+}
