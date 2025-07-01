@@ -10,13 +10,14 @@
 body {
     display: flex;
     flex-direction: column;
-    height: 100vh;
+    height: 100vh;    
     background-image: url('../img/back.jpg');
     background-size: cover;
     background-position: center;
 }
 
 .hero-header {
+    font-family: "Press Start 2P", cursive;
     display: flex;
     flex-direction: column;
     margin-top: 5rem;
@@ -25,8 +26,7 @@ body {
     text-align: center;
 }
 
-.title {
-    font-family: "Press Start 2P", cursive;
+.title {    
     font-size: 3.5rem;
     letter-spacing: 17px;
     color: #f00;
@@ -34,8 +34,7 @@ body {
 
 .subtitle {
     margin-top: 2rem;
-    line-height: 1.7rem;
-    font-family: "Press Start 2P", cursive;
+    line-height: 1.7rem;    
     font-size: 1.3rem;
     width: 44%;
     color: #000;
